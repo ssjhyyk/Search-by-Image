@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}

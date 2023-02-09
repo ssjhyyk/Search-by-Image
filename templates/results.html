@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="results.css">
+    <title>Results</title>
+</head>
+<body>
+
+    <h2>Results</h2>
+    <img src="{{ image_path }}" alt="Detected faces" width="500" height="500">
+    <h2> Similar Images</h2>
+    {% for image in results %}
+        <img src="{{ image.url }}" alt="Similar image" width="200" height="200">
+    {% endfor %}
+
+</body>
+</html>
