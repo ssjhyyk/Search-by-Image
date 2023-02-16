@@ -46,7 +46,6 @@ def search_by_image():
         response = requests.post(url, headers=headers, data=json.dumps(data))
 
         # Handle the API response
-        # Handle the API response
         if response.status_code == 200:
             # Parse the JSON response
             results = response.json()
